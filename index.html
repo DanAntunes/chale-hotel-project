@@ -38,8 +38,8 @@
                 </div><!--Fim Conteúdo Menu-->
             </section>
         </header>
-        <main id="area-principal"><!--Inicio Area Principal-->
-            <section class="conteudo">
+        <main id="area-principal" role="main" aria-label="Conteúdo principal do site"><!--Inicio Area Principal-->
+            <section class="conteudo" aria-labelledby="titulo-conteudo">
             <h2>Chalé Hotel: Viva Momentos Únicos!</div>
             <p>
                 Bem-vindo ao Chalé Hotel, o seu destino ideal para uma hospedagem confortável, aconchegante e 
@@ -60,19 +60,23 @@
             </p>
             </section>
         </main>
-        <aside id="area-lateral"><!--Inicio Area Lateral-->
-            <section class="conteudo">
+        <aside id="area-lateral" aria-label="Benefícios do Chalé"><!--Inicio Area Lateral-->
+            <section class="conteudo" aria-labelledby="titulo-beneficios">
              <p>
-              <ul id="beneficios">
+              <ul id="beneficios"  role="list">
                     <li>
-                        <a href="">
-                            <img src="imagens/apartamento.jpg" width="150" alt="Apartamento">
-                            <h3>Apartamento</h3>
-                            <P>Você encontra apartamentos confortáveis, espaçosos e bem equipados para a sua estadia. 
-                            Além de desfrutar de uma vista incrível da natureza, você também conta com serviços de 
-                            qualidade e atendimento personalizado.
-                            </P>
-                        </a>
+                        <article>
+                            <a href="" aria-label="Saiba mais sobre os apartamentos">
+                                <img src="imagens/apartamento.jpg" width="150" alt="Apartamento amplo com cama king size, mesa de trabalho e vista para as montanhas através de grandes janelas">
+                                <h3>Apartamento</h3>
+                               <div class="card-content">
+                                    <P>Você encontra apartamentos confortáveis, espaçosos e bem equipados para a sua estadia. 
+                                        Além de desfrutar de uma vista incrível da natureza, você também conta com serviços de 
+                                        qualidade e atendimento personalizado.
+                                    </P>
+                               </div>
+                            </a>
+                        </article>
                     </li>
                     <li>
                     <a href="">
